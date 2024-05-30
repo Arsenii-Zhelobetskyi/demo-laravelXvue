@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Home Page</h1>
+        <h1 class="text-2xl bg-red-700">Home Page</h1>
         <div>{{ count }}</div>
         <Link href="/about"> Go ot about page</Link>
         <div>

@@ -8,3 +8,5 @@ Route::get('/about', [MainController::class, 'about']);
 
 Route::post('/api/addItemApi', [MainController::class, 'addItemApi']);
 Route::get('/addItem', [MainController::class, 'addItem']);
+
+Route::get('/flow',[MainController::class, 'flow']);

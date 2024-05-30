@@ -38,4 +38,9 @@ class MainController extends Controller
     public function addItem(){
         return Inertia::render('AddItem');
     }
+
+
+    public function flow(){
+        return Inertia::render('Flow');
+    }
 }
